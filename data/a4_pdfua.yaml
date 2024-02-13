@@ -1,0 +1,9 @@
+train: dataset/images/train/ 
+val: dataset/images/val/
+test: dataset/images/test/
+
+# number of classes
+nc: 9
+
+# class names
+names: ["P", "H", "TOC", "L", "Table", "Figure", "Caption", "Note", "BlockQuote"]
